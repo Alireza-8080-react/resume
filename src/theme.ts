@@ -1,24 +1,26 @@
-import { createTheme } from '@mui/material';
+"use client";
+
+import { createTheme } from "@mui/material";
+import { COLOR_PALETTE_NOMAD } from "./consts/colorPallete";
 
 export const applicationTheme = createTheme({
   palette: {
     common: {
-      black: '#000',
-      white: '#fff'
+      black: "#000",
+      white: "#fff",
     },
     primary: {
-      contrastText: '#0077f3',
-      dark: '#0977fe',
-      light: '#000',
-      main: '#0977fe'
+      main: COLOR_PALETTE_NOMAD,
     },
     secondary: {
-      contrastText: '#eee330',
-      main: '#ffe334'
-    }
+      contrastText: "#eee330",
+      main: "#ffe334",
+    },
   },
   typography: {
-    fontFamily: 'IRANSansXFaNum',
-    fontSize: 14
-  }
+    fontFamily: "IRANSansXFaNum",
+    allVariants: {
+      color: COLOR_PALETTE_NOMAD,
+    },
+  },
 });
