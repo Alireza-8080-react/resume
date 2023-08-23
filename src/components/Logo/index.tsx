@@ -1,5 +1,10 @@
 import { Typography } from "@mui/material";
+import Link from "next/link";
 
 export const Logo = () => {
-  return <Typography variant="h4">Alireza Shahmoradi</Typography>;
+  return (
+    <Link href="/">
+      <Typography variant="h4">Alireza Shahmoradi</Typography>
+    </Link>
+  );
 };
