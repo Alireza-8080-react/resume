@@ -1,5 +1,3 @@
-"use client";
-
 import Link from "next/link";
 import { NavbarItemProps } from "./models";
 import { Typography } from "@mui/material";
