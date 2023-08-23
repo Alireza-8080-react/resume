@@ -1,3 +1,5 @@
+"use client";
+
 import { ThemeProvider } from "@mui/material";
 import "@/styles/overrides.scss";
 

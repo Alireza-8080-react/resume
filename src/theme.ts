@@ -1,5 +1,3 @@
-"use client";
-
 import { createTheme } from "@mui/material";
 import {
   COLOR_PALETTE_FOREGROUND,
