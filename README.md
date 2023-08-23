@@ -1,13 +1,13 @@
-# Template
+# Resume
 
-This is a template project using Next js. My other projects will probably be built based on this project. You can use it as base project as well if you use Next js with tailwindcss & typescript.
+This is my resume. I also made it public so you can watch my handwrite.
 
 ## Getting Started
 
 First, install pnpm using npm
 
 ```bash
-npm i -g pnpm
+npm i -g pnpm@8.6.12
 ```
 
 then install all of the dependencies of the project with
