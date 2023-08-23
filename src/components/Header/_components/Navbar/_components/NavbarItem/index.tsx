@@ -11,7 +11,7 @@ export const NavbarItem = ({ title, link }: NavbarItemProps) => {
   const pathName = usePathname();
 
   return (
-    <Link href={link} className={classes.link}>
+    <Link href={link}>
       <Typography
         variant="h5"
         className={`${pathName === link ? classes.active : ""} ${classes.text}`}

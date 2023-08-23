@@ -1,14 +1,10 @@
 @import "src/styles/variables";
 
-.link {
-  text-decoration: none;
+.active {
+  border-bottom: $color-palette-main 2px solid;
+}
 
-  .active {
-    border-bottom: $color-palette-main 2px solid;
-  }
-
-  .text:hover {
-    transition: all 0.3s ease-in-out;
-    color: $color-palette-main;
-  }
+.text:hover {
+  transition: all 0.3s ease-in-out;
+  color: $color-palette-main;
 }
