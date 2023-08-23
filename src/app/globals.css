@@ -1,10 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 :root {
-  --foreground-hex: #bbb6a5;
-  --background-start-hex: #2a2f33;
+  --foreground-hex: #4cb5f5;
+  --background-start-hex: #34675c;
 }
 
 body {
