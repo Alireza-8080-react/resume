@@ -1,0 +1,7 @@
+@import "./variables.scss";
+
+body {
+  color: $color-palette-foreground;
+  background-color: $color-palette-background;
+  padding: 16px 32px;
+}

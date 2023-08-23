@@ -1,9 +1,0 @@
-:root {
-  --foreground-hex: #4cb5f5;
-  --background-start-hex: #34675c;
-}
-
-body {
-  color: rgb(var(--foreground-hex));
-  background-color: var(--background-start-hex);
-}
