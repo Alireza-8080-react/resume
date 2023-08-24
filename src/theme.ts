@@ -1,29 +1,31 @@
-import { createTheme } from "@mui/material";
+import { createTheme } from '@mui/material';
+
 import {
+  COLOR_PALETTE_BACKGROUND_2,
   COLOR_PALETTE_FOREGROUND,
   COLOR_PALETTE_MAIN,
-  COLOR_PALETTE_SECONDARY,
-} from "./consts/colorPallete";
+  COLOR_PALETTE_SECONDARY
+} from './consts/colorPallete';
 
 export const applicationTheme = createTheme({
   palette: {
-    common: {
-      black: "#000",
-      white: "#fff",
+    background: {
+      default: COLOR_PALETTE_BACKGROUND_2,
+      paper: COLOR_PALETTE_BACKGROUND_2
     },
     primary: {
-      main: COLOR_PALETTE_MAIN,
       contrastText: COLOR_PALETTE_FOREGROUND,
+      main: COLOR_PALETTE_MAIN
     },
     secondary: {
-      main: COLOR_PALETTE_SECONDARY,
       contrastText: COLOR_PALETTE_FOREGROUND,
-    },
+      main: COLOR_PALETTE_SECONDARY
+    }
   },
   typography: {
-    fontFamily: "IRANSansXFaNum",
     allVariants: {
-      color: COLOR_PALETTE_FOREGROUND,
+      color: COLOR_PALETTE_FOREGROUND
     },
-  },
+    fontFamily: 'IRANSansXFaNum'
+  }
 });
