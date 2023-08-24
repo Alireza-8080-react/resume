@@ -1,7 +1,9 @@
-import { Button, Grid, Hidden } from "@mui/material";
-import { NavbarItem } from "./_components/NavbarItem";
-import { useState } from "react";
-import { NavbarDrawer } from "./_components/NavbarDrawer";
+import { Button, Grid, Hidden } from '@mui/material';
+import { useState } from 'react';
+
+import { NavbarDrawer } from './_components/NavbarDrawer';
+import { NavbarItem } from './_components/NavbarItem';
+import classes from './index.module.scss';
 
 export const Navbar = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -19,23 +21,25 @@ export const Navbar = () => {
       <Hidden mdDown>
         <Grid container spacing={6}>
           <Grid item>
-            <NavbarItem title="home" link="/" />
+            <NavbarItem title='Home' link='/' />
           </Grid>
           <Grid item>
-            <NavbarItem title="about" link="/about" />
+            <NavbarItem title='About' link='/about' />
           </Grid>
           <Grid item>
-            <NavbarItem title="else" link="/else" />
+            <NavbarItem title='Else' link='/else' />
           </Grid>
           <Grid item>
-            <NavbarItem title="sth" link="/sth" />
+            <NavbarItem title='Sth' link='/sth' />
           </Grid>
         </Grid>
       </Hidden>
       <Hidden mdUp>
-        <Button variant="outlined" onClick={handleOpenDrawer}>
-          Hello
-        </Button>
+        <Button
+          variant='outlined'
+          onClick={handleOpenDrawer}
+          className={`${isDrawerOpen ? 'bx bxs-down-arrow' : 'bx bxs-up-arrow'} ${classes.icon}`}
+        />
         <NavbarDrawer isOpen={isDrawerOpen} onClose={handleCloseDrawer} />
       </Hidden>
     </>

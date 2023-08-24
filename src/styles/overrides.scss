@@ -1,4 +1,4 @@
-@import "./variables.scss";
+@import './variables.scss';
 
 body {
   color: $color-palette-foreground;
@@ -8,4 +8,8 @@ body {
 
 a {
   text-decoration: none;
+}
+
+i {
+  color: $color-palette-foreground;
 }

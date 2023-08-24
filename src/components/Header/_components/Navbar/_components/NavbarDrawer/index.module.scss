@@ -1,0 +1,9 @@
+@import 'src/styles/variables';
+
+.itemContainer {
+  padding: 30px 10px;
+}
+
+.notLastItemContainer {
+  border-bottom: 1px solid $color-palette-foreground;
+}

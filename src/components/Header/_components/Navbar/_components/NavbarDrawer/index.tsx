@@ -1,5 +1,24 @@
-import { NavbarDrawerProps } from "./models";
+import { Drawer } from '@/components/Drawer';
+
+import { NavbarItem } from '../NavbarItem';
+import classes from './index.module.scss';
+import { NavbarDrawerProps } from './models';
 
 export const NavbarDrawer = ({ isOpen, onClose }: NavbarDrawerProps) => {
-  return <></>;
+  return (
+    <Drawer isOpen={isOpen} onClose={onClose}>
+      <div className={`${classes.itemContainer} ${classes.notLastItemContainer}`}>
+        <NavbarItem title='Home' link='/' icon='bx bxs-home' />
+      </div>
+      <div className={`${classes.itemContainer} ${classes.notLastItemContainer}`}>
+        <NavbarItem title='About' link='/about' icon='bx bxs-info-circle' />
+      </div>
+      <div className={`${classes.itemContainer} ${classes.notLastItemContainer}`}>
+        <NavbarItem title='Else' link='/else' icon='bx bxs-info-circle' />
+      </div>
+      <div className={classes.itemContainer}>
+        <NavbarItem title='Sth' link='/sth' icon='bx bxs-info-circle' />
+      </div>
+    </Drawer>
+  );
 };
