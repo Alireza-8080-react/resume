@@ -35,11 +35,11 @@ export const Navbar = () => {
         </Grid>
       </Hidden>
       <Hidden mdUp>
-        <Button
-          variant='outlined'
-          onClick={handleOpenDrawer}
-          className={`${isDrawerOpen ? 'bx bxs-down-arrow' : 'bx bxs-up-arrow'} ${classes.icon}`}
-        />
+        <Button variant='outlined' onClick={handleOpenDrawer}>
+          <i
+            className={`${isDrawerOpen ? classes.openedIcon : ''} bx bxs-up-arrow ${classes.icon}`}
+          />
+        </Button>
         <NavbarDrawer isOpen={isDrawerOpen} onClose={handleCloseDrawer} />
       </Hidden>
     </>

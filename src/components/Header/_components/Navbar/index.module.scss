@@ -1,4 +1,16 @@
+@import 'src/styles/variables';
+
 .icon {
   padding: 10px;
   font-size: 20px;
+  transition: all 0.3s ease-in-out;
+  color: $color-palette-main;
+}
+
+.openedIcon {
+  transform: rotate(180deg);
+}
+
+.closedIcon {
+  transform: rotate(360deg);
 }
