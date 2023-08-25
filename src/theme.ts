@@ -5,7 +5,7 @@ import {
   COLOR_PALETTE_FOREGROUND,
   COLOR_PALETTE_MAIN,
   COLOR_PALETTE_SECONDARY
-} from './consts/colorPallete';
+} from './constants/colorPalette';
 
 export const applicationTheme = createTheme({
   palette: {
