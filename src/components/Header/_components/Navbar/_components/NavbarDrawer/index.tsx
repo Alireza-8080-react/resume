@@ -7,13 +7,13 @@ import { NavbarDrawerProps } from './models';
 export const NavbarDrawer = ({ isOpen, onClose }: NavbarDrawerProps) => {
   return (
     <Drawer isOpen={isOpen} onClose={onClose}>
-      <div className={`${classes.itemContainer} ${classes.notLastItemContainer}`}>
+      <div className={classes.itemContainer}>
         <NavbarItem title='Home' link='/' icon='bx bxs-home' />
       </div>
-      <div className={`${classes.itemContainer} ${classes.notLastItemContainer}`}>
+      <div className={classes.itemContainer}>
         <NavbarItem title='About' link='/about' icon='bx bxs-info-circle' />
       </div>
-      <div className={`${classes.itemContainer} ${classes.notLastItemContainer}`}>
+      <div className={classes.itemContainer}>
         <NavbarItem title='Else' link='/else' icon='bx bxs-info-circle' />
       </div>
       <div className={classes.itemContainer}>
