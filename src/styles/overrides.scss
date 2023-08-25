@@ -2,7 +2,11 @@
 
 body {
   color: $color-palette-foreground;
-  background-color: $color-palette-background;
+  background-image: linear-gradient(
+    to right,
+    $color-palette-background-start 0%,
+    $color-palette-background-end 100%
+  );
   padding: 16px 32px;
 }
 
