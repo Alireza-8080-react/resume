@@ -1,10 +1,6 @@
-import {
-  Button,
-  DialogActions,
-  DialogTitle,
-  Dialog as MuiDialog,
-} from "@mui/material";
-import { DialogProps } from "./models";
+import { Button, Dialog as MuiDialog, DialogActions, DialogTitle } from '@mui/material';
+
+import { DialogProps } from './models';
 
 export const Dialog = ({
   isOpen,
@@ -12,9 +8,9 @@ export const Dialog = ({
   children,
   title,
   onConfirm,
-  confirmText = "OK",
-  cancelText = "cancel",
-  onCancel,
+  confirmText = 'OK',
+  cancelText = 'cancel',
+  onCancel
 }: DialogProps) => {
   const handleCancel = () => (onCancel ? onCancel() : onClose());
 
