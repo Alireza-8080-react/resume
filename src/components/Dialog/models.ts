@@ -1,7 +1,9 @@
+import { ReactNode } from 'react';
+
 export interface DialogProps {
   onClose: () => void;
   isOpen: boolean;
-  children: JSX.Element | JSX.Element[];
+  children: ReactNode;
   title?: string;
   onConfirm?: () => void;
   confirmText?: string;
