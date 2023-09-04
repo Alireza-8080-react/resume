@@ -4,13 +4,10 @@
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended"
   ],
-  "plugins": ["simple-import-sort", "@typescript-eslint"],
+  "plugins": ["simple-import-sort", "@typescript-eslint", "jest.config"],
   "parser": "@typescript-eslint/parser",
   "rules": {
-    "@typescript-eslint/ban-ts-comment": [
-      "error",
-      { "ts-expect-error": "allow-with-description" }
-    ],
+    "@typescript-eslint/ban-ts-comment": ["error", { "ts-expect-error": "allow-with-description" }],
     "@typescript-eslint/ban-types": "off",
     "@typescript-eslint/no-empty-function": "error",
     "@typescript-eslint/no-empty-interface": "error",
