@@ -1,12 +1,6 @@
 @import './variables.scss';
 
 body {
-  color: $color-palette-foreground;
-  background-image: linear-gradient(
-    to right,
-    $color-palette-background-start 0%,
-    $color-palette-background-end 100%
-  );
   padding: 1rem 2rem;
 }
 
@@ -14,10 +8,36 @@ a {
   text-decoration: none;
 }
 
-i {
-  color: $color-palette-foreground;
-}
-
 main {
   margin-top: 64px;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: $color-palette-foreground-dark;
+    background-image: linear-gradient(
+      to right,
+      $color-palette-background-start-dark 0%,
+      $color-palette-background-end-dark 100%
+    );
+  }
+
+  i {
+    color: $color-palette-foreground-dark;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    color: $color-palette-foreground-light;
+    background-image: linear-gradient(
+      to right,
+      $color-palette-background-light 0%,
+      $color-palette-background-light 100%
+    );
+  }
+
+  i {
+    color: $color-palette-foreground-light;
+  }
 }
