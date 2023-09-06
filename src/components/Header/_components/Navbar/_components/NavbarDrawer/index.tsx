@@ -16,6 +16,9 @@ export const NavbarDrawer = ({ isOpen, onClose }: NavbarDrawerProps) => {
       <div className={classes.itemContainer}>
         <NavbarItem title='Contact Me' link='/contact-me' icon='bx bxs-contact' />
       </div>
+      <div className={classes.itemContainer}>
+        <NavbarItem title='Download CV' link='/CV' icon='bx bxs-download' />
+      </div>
     </Drawer>
   );
 };
