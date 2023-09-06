@@ -1,0 +1,26 @@
+.container {
+  height: 60vh;
+  overflow-y: scroll;
+  display: inline-block;
+  padding: 0 8px;
+  width: 100%;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  &::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: rgba(97, 91, 91, 0.1);
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgba(97, 91, 91, 0.2);
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background: rgba(97, 91, 91, 0.4);
+  }
+  &::-webkit-scrollbar-thumb:active {
+    background: rgba(97, 91, 91, 0.9);
+  }
+}
