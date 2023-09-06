@@ -1,7 +1,7 @@
-import { Button, Grid, IconButton, LinearProgress, Typography } from '@mui/material';
+import { Button, Grid, IconButton, Typography } from '@mui/material';
 import classes from './page.module.scss';
 import Link from 'next/link';
-import { CustomizedLinearProgressWithLabel } from './_components/CustomizedLinearProgressWithLabel';
+import { CustomizedLinearProgressWithLabel } from '@/components/CustomizedLinearProgressWithLabel';
 
 const HomePage = () => {
   return (
