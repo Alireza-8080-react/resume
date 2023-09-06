@@ -1,6 +1,7 @@
 'use client';
 
 import '@/styles/overrides.scss';
+import '@/styles/general.scss';
 
 import { ThemeProvider } from '@mui/material';
 import { Inter } from 'next/font/google';
