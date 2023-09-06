@@ -26,9 +26,6 @@ export const Navbar = () => {
           <Grid item>
             <NavbarItem title='About' link='/about' />
           </Grid>
-          <Grid item>
-            <NavbarItem title='Contact Me' link='/contact-me' />
-          </Grid>
         </Grid>
       </Hidden>
       <Hidden mdUp>

@@ -1,8 +1,10 @@
-import { Button, Grid, IconButton, Typography } from '@mui/material';
+'use client';
+
+import { Grid, Typography } from '@mui/material';
 import classes from './page.module.scss';
-import Link from 'next/link';
 import { CustomizedLinearProgressWithLabel } from '@/components/CustomizedLinearProgressWithLabel';
 import { Scrollbar } from '@/components/Scrollbar';
+import { SocialMediaIcon } from '@/components/SocialMediaIcon';
 
 const HomePage = () => {
   return (
@@ -15,15 +17,26 @@ const HomePage = () => {
             possible.
           </Typography>
           <div className={classes.contactMeButton}>
-            <IconButton>
-              <i className='bx bxl-nodejs' />
-            </IconButton>
-            <IconButton>
-              <i className='bx bxl-react' />
-            </IconButton>
-            <Link href='/contact-me'>
-              <Button variant='contained'>Contact me</Button>
-            </Link>
+            <SocialMediaIcon
+              href='https://instagram.com/alirezashh8074'
+              title='@alirezashh8074'
+              icon='instagram'
+            />
+            <SocialMediaIcon
+              href='https://www.linkedin.com/in/alireza-shahmoradi/'
+              title='Alireza-Shahmoradi'
+              icon='linkedin'
+            />
+            <SocialMediaIcon
+              href='https://t.me/AlirezaShahmoradi80'
+              title='@AlirezaShahmoradi80'
+              icon='telegram'
+            />
+            <SocialMediaIcon
+              href='https://mail.google.com/mail/u/0/?ogbl#inbox?compose=CllgCJTJnslxZFCNZNxfqMZjXlsrDVkPvRWTxVqKSWlpzLbsMMwDqfXvHZVPMNNWsqHwTjLnjpL'
+              title='@Alireza.Shahmoaradi.entrepreneur@gmail.com'
+              icon='gmail'
+            />
           </div>
         </Grid>
         <Grid item lg={1} xs={0} />
