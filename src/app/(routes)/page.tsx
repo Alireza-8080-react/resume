@@ -6,7 +6,7 @@ const HomePage = () => {
   return (
     <main className='body'>
       <Grid container>
-        <Grid item xl={4} className={classes.generalInfoContainer}>
+        <Grid item lg={4} md={12} className={classes.generalInfoContainer}>
           <Typography variant='h2'>Mid-level Front-end Developer</Typography>
           <Typography className={classes.caption}>
             With 2 years of experience of React & Next JS development. Learning at highest speed
