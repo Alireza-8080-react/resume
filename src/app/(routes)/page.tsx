@@ -18,24 +18,19 @@ const HomePage = () => {
           </Typography>
           <div className={classes.contactMeButton}>
             <SocialMediaIcon
-              href='https://instagram.com/alirezashh8074'
-              title='@alirezashh8074'
-              icon='instagram'
-            />
-            <SocialMediaIcon
               href='https://www.linkedin.com/in/alireza-shahmoradi/'
               title='Alireza-Shahmoradi'
-              icon='linkedin'
+              iconClassName='bx bxl-linkedin'
             />
             <SocialMediaIcon
-              href='https://t.me/AlirezaShahmoradi80'
-              title='@AlirezaShahmoradi80'
-              icon='telegram'
+              href='tel:+989037578234'
+              title='+98 903 7578 234'
+              iconClassName='bx bxs-phone'
             />
             <SocialMediaIcon
               href='https://mail.google.com/mail/u/0/?ogbl#inbox?compose=CllgCJTJnslxZFCNZNxfqMZjXlsrDVkPvRWTxVqKSWlpzLbsMMwDqfXvHZVPMNNWsqHwTjLnjpL'
               title='@Alireza.Shahmoaradi.entrepreneur@gmail.com'
-              icon='gmail'
+              iconClassName='bx bxl-gmail'
             />
           </div>
         </Grid>
