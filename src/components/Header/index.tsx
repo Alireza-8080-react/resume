@@ -27,7 +27,7 @@ export const Header = () => {
             </Grid>
             <Grid item>
               <Button color='secondary' variant='outlined'>
-                <span className={classes.downloadIconContainer}>
+                <span className={classes.download_icon_container}>
                   <i className='bx bxs-download secondaryColor' />
                 </span>
                 <span>Download CV</span>

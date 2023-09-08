@@ -11,7 +11,7 @@ const NotFound = () => {
         <Image src='404.svg' alt='404' width={350} height={350} />
         <Typography variant='h4'>The page you are looking for is not found!</Typography>
         <Link href='/'>
-          <Button className={classes.homePageButton} variant='contained'>
+          <Button className={classes.home_page_button} variant='contained'>
             Home page
           </Button>
         </Link>

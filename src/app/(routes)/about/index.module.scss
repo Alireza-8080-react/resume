@@ -1,6 +1,6 @@
 @import 'src/styles/animations';
 
-.qaAccordion {
+.qa_accordion {
   animation: leftToRight 2s ease-in-out;
   animation-fill-mode: forwards;
   transform: translateX(-150%);
