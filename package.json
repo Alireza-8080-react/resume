@@ -10,7 +10,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "preinstall": "npx only-allow pnpm",
-    "test": "jest"
+    "test": "jest --watch"
   },
   "husky": {
     "hooks": {
