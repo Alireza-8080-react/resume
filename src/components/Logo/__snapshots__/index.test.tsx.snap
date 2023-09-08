@@ -5,6 +5,30 @@ exports[`Logo renders logo 1`] = `
   "asFragment": [Function],
   "baseElement": <body>
     <div>
+      <div
+        class="logo"
+      >
+        <a
+          href="/"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-h4 css-11kybd2-MuiTypography-root"
+          >
+            A
+          </span>
+          <span
+            class="MuiTypography-root MuiTypography-h4 css-5lbw0b-MuiTypography-root"
+          >
+            SH
+          </span>
+        </a>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="logo"
+    >
       <a
         href="/"
       >
@@ -20,22 +44,6 @@ exports[`Logo renders logo 1`] = `
         </span>
       </a>
     </div>
-  </body>,
-  "container": <div>
-    <a
-      href="/"
-    >
-      <span
-        class="MuiTypography-root MuiTypography-h4 css-11kybd2-MuiTypography-root"
-      >
-        A
-      </span>
-      <span
-        class="MuiTypography-root MuiTypography-h4 css-5lbw0b-MuiTypography-root"
-      >
-        SH
-      </span>
-    </a>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
