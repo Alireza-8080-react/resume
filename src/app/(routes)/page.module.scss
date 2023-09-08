@@ -1,7 +1,9 @@
 @import 'src/styles/variables';
+@import 'src/styles/animations';
 
 .generalInfoContainer {
   margin-top: 128px;
+  animation: leftToRight 2s ease-in-out;
 }
 
 .caption {
@@ -14,8 +16,13 @@
   width: fit-content;
   padding: 8px;
   border-radius: 10px;
+  animation: float 2s ease-in-out;
+  animation-iteration-count: infinite;
 }
 
 .skillsScrollbar {
+  animation: rightToLeft 4s ease-in-out;
+  animation-fill-mode: forwards;
+  transform: translateX(200%);
   height: 60vh;
 }
