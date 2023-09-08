@@ -4,7 +4,7 @@
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended"
   ],
-  "plugins": ["simple-import-sort", "@typescript-eslint", "jest.config"],
+  "plugins": ["simple-import-sort", "@typescript-eslint", "eslint-plugin-jest"],
   "parser": "@typescript-eslint/parser",
   "rules": {
     "@typescript-eslint/ban-ts-comment": ["error", { "ts-expect-error": "allow-with-description" }],

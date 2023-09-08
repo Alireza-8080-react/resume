@@ -1,7 +1,7 @@
 import { LinearProgress, Typography } from '@mui/material';
-import { CustomizedLinearProgressWithLabelProps } from './models';
 
 import classes from './index.module.scss';
+import { CustomizedLinearProgressWithLabelProps } from './models';
 
 export const CustomizedLinearProgressWithLabel = ({
   label,

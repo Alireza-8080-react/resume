@@ -1,9 +1,8 @@
 'use client';
 
-import { Accordion, AccordionDetails, AccordionSummary, Typography } from '@mui/material';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Link from 'next/link';
 import { SyntheticEvent, useState } from 'react';
+
 import { QAAccordion } from '@/components/QAAccordion';
 
 const AboutPage = () => {
