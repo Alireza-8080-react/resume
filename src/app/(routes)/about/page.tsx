@@ -5,6 +5,8 @@ import { SyntheticEvent, useState } from 'react';
 
 import { QAAccordion } from '@/components/QAAccordion';
 
+import classes from './index.module.scss';
+
 const AboutPage = () => {
   const [expanded, setExpanded] = useState<string | false>(false);
 
@@ -17,6 +19,7 @@ const AboutPage = () => {
       <QAAccordion
         isExpanded={expanded === 'panel1'}
         onChange={handleChange('panel1')}
+        className={`${classes.qaAccordion}`}
         question='A short bio'
       >
         I'm Alireza Shahmoradi. Born in 2001-Sep-21. I loved playing video games from childhood so I
@@ -25,6 +28,7 @@ const AboutPage = () => {
       <QAAccordion
         isExpanded={expanded === 'panel2'}
         onChange={handleChange('panel2')}
+        className={`${classes.qaAccordion} ${classes.accordion2}`}
         question='How did I start front-end?'
       >
         I started it by chance! I saw an HTML & CSS video on YouTube & just got curious about it. I
@@ -34,6 +38,7 @@ const AboutPage = () => {
       <QAAccordion
         isExpanded={expanded === 'panel3'}
         onChange={handleChange('panel3')}
+        className={`${classes.qaAccordion} ${classes.accordion3}`}
         question='Tell us about your work experience'
       >
         I started working on
@@ -48,6 +53,7 @@ const AboutPage = () => {
       <QAAccordion
         isExpanded={expanded === 'panel4'}
         onChange={handleChange('panel4')}
+        className={`${classes.qaAccordion} ${classes.accordion4}`}
         question='What was your role in Azki?'
       >
         I worked on back-office panel.
@@ -55,6 +61,7 @@ const AboutPage = () => {
       <QAAccordion
         isExpanded={expanded === 'panel5'}
         onChange={handleChange('panel5')}
+        className={`${classes.qaAccordion} ${classes.accordion5}`}
         question='What are your achievements?'
       >
         <ul>
@@ -70,6 +77,7 @@ const AboutPage = () => {
       <QAAccordion
         isExpanded={expanded === 'panel6'}
         onChange={handleChange('panel6')}
+        className={`${classes.qaAccordion} ${classes.accordion6}`}
         question='What are your strengths?'
       >
         <ul>

@@ -5,4 +5,5 @@ export interface QAAccordionProps {
   onChange: (event: SyntheticEvent, isExpanded: boolean) => void;
   question: string;
   children: ReactNode;
+  className?: string;
 }
