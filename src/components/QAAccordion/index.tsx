@@ -1,10 +1,17 @@
-import { Accordion, AccordionDetails, AccordionSummary, Typography } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import { Accordion, AccordionDetails, AccordionSummary, Typography } from '@mui/material';
+
 import { QAAccordionProps } from './models';
 
-export const QAAccordion = ({ isExpanded, onChange, question, children }: QAAccordionProps) => {
+export const QAAccordion = ({
+  isExpanded,
+  onChange,
+  question,
+  children,
+  className
+}: QAAccordionProps) => {
   return (
-    <Accordion expanded={isExpanded} onChange={onChange}>
+    <Accordion expanded={isExpanded} onChange={onChange} className={className}>
       <AccordionSummary
         expandIcon={<ExpandMoreIcon />}
         aria-controls='panel1a-content'

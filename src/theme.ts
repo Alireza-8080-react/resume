@@ -18,11 +18,11 @@ export const applicationTheme = (prefersDarkMode: boolean) => {
     : COLOR_PALETTE_FOREGROUND_LIGHT;
   return createTheme({
     palette: {
-      mode: prefersDarkMode ? 'dark' : 'light',
       background: {
         default: BACKGROUND,
         paper: BACKGROUND
       },
+      mode: prefersDarkMode ? 'dark' : 'light',
       primary: {
         contrastText: COLOR_PALETTE_FOREGROUND_DARK,
         main: COLOR_PALETTE_MAIN

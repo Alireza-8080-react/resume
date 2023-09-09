@@ -1,21 +1,28 @@
 @import 'src/styles/variables';
+@import 'src/styles/animations';
 
-.generalInfoContainer {
+.general_info_container {
   margin-top: 128px;
+  animation: leftToRight 2s ease-in-out;
 }
 
 .caption {
   margin-top: 32px;
 }
 
-.contactMeButton {
+.contact_me_button {
   margin-top: 32px;
   background-color: rgba($color-palette-secondary, 0.2);
   width: fit-content;
   padding: 8px;
   border-radius: 10px;
+  animation: float 2s ease-in-out;
+  animation-iteration-count: infinite;
 }
 
-.skillsScrollbar {
+.skills_scrollbar {
+  animation: rightToLeft 4s ease-in-out;
+  animation-fill-mode: forwards;
+  transform: translateX(200%);
   height: 60vh;
 }

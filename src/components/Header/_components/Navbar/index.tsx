@@ -31,7 +31,7 @@ export const Navbar = () => {
       <Hidden mdUp>
         <Button variant='outlined' onClick={handleOpenDrawer}>
           <i
-            className={`${isDrawerOpen ? classes.openedIcon : ''} bx bxs-up-arrow ${classes.icon}`}
+            className={`${isDrawerOpen ? classes.opened_icon : ''} bx bxs-up-arrow ${classes.icon}`}
           />
         </Button>
         <NavbarDrawer isOpen={isDrawerOpen} onClose={handleCloseDrawer} />

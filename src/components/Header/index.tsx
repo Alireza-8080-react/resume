@@ -2,7 +2,6 @@ import { Button, Grid, Hidden, IconButton } from '@mui/material';
 
 import { Logo } from '../Logo';
 import { Navbar } from './_components/Navbar';
-
 import classes from './index.module.scss';
 
 export const Header = () => {
@@ -28,7 +27,7 @@ export const Header = () => {
             </Grid>
             <Grid item>
               <Button color='secondary' variant='outlined'>
-                <span className={classes.downloadIconContainer}>
+                <span className={classes.download_icon_container}>
                   <i className='bx bxs-download secondaryColor' />
                 </span>
                 <span>Download CV</span>

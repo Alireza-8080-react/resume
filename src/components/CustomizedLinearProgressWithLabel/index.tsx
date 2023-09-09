@@ -1,7 +1,7 @@
 import { LinearProgress, Typography } from '@mui/material';
-import { CustomizedLinearProgressWithLabelProps } from './models';
 
 import classes from './index.module.scss';
+import { CustomizedLinearProgressWithLabelProps } from './models';
 
 export const CustomizedLinearProgressWithLabel = ({
   label,
@@ -10,7 +10,7 @@ export const CustomizedLinearProgressWithLabel = ({
   return (
     <div className={classes.container}>
       <Typography variant='h4'>{label}</Typography>
-      <LinearProgress className={classes.progressBar} variant='determinate' value={value} />
+      <LinearProgress className={classes.progress_bar} variant='determinate' value={value} />
     </div>
   );
 };

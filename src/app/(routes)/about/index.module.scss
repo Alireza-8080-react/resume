@@ -1,0 +1,27 @@
+@import 'src/styles/animations';
+
+.qa_accordion {
+  animation: leftToRight 2s ease-in-out;
+  animation-fill-mode: forwards;
+  transform: translateX(-150%);
+}
+
+.accordion2 {
+  animation-delay: 0.5s;
+}
+
+.accordion3 {
+  animation-delay: 1s;
+}
+
+.accordion4 {
+  animation-delay: 1.5s;
+}
+
+.accordion5 {
+  animation-delay: 2s;
+}
+
+.accordion6 {
+  animation-delay: 2.5s;
+}

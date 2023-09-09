@@ -3,7 +3,7 @@
 import '@/styles/overrides.scss';
 import '@/styles/general.scss';
 
-import { ThemeProvider, responsiveFontSizes, useMediaQuery } from '@mui/material';
+import { responsiveFontSizes, ThemeProvider, useMediaQuery } from '@mui/material';
 import { Inter } from 'next/font/google';
 import { ReactNode } from 'react';
 

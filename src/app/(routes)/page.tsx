@@ -1,22 +1,24 @@
 'use client';
 
 import { Grid, Typography } from '@mui/material';
-import classes from './page.module.scss';
+
 import { CustomizedLinearProgressWithLabel } from '@/components/CustomizedLinearProgressWithLabel';
 import { Scrollbar } from '@/components/Scrollbar';
 import { SocialMediaIcon } from '@/components/SocialMediaIcon';
+
+import classes from './page.module.scss';
 
 const HomePage = () => {
   return (
     <main className='body'>
       <Grid container spacing={2}>
-        <Grid item lg={4} xs={12} className={classes.generalInfoContainer}>
+        <Grid item lg={4} xs={12} className={classes.general_info_container}>
           <Typography variant='h2'>Mid-level Front-end Developer</Typography>
           <Typography className={classes.caption}>
             With 2 years of experience of React & Next JS development. Learning at highest speed
             possible.
           </Typography>
-          <div className={classes.contactMeButton}>
+          <div className={classes.contact_me_button}>
             <SocialMediaIcon
               href='https://www.linkedin.com/in/alireza-shahmoradi/'
               title='Alireza-Shahmoradi'
@@ -36,7 +38,7 @@ const HomePage = () => {
         </Grid>
         <Grid item lg={1} xs={0} />
         <Grid item lg={6} xs={12}>
-          <Scrollbar className={classes.skillsScrollbar}>
+          <Scrollbar className={classes.skills_scrollbar}>
             <CustomizedLinearProgressWithLabel label='HTML5' value={70} />
             <CustomizedLinearProgressWithLabel label='CSS3' value={60} />
             <CustomizedLinearProgressWithLabel label='JS' value={30} />
