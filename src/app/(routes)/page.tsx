@@ -1,12 +1,13 @@
 'use client';
 
-import { Grid, Typography } from '@mui/material';
+import { Grid } from '@mui/material';
 
 import { CustomizedLinearProgressWithLabel } from '@/components/CustomizedLinearProgressWithLabel';
 import { Scrollbar } from '@/components/Scrollbar';
 import { SocialMediaIcon } from '@/components/SocialMediaIcon';
 
 import classes from './page.module.scss';
+import { Typography } from '@/components/Typography';
 
 const HomePage = () => {
   return (

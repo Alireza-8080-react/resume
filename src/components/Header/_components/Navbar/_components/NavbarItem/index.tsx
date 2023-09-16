@@ -1,9 +1,10 @@
-import { Grid, Typography } from '@mui/material';
+import { Grid } from '@mui/material';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 import classes from './index.module.scss';
 import { NavbarItemProps } from './models';
+import { Typography } from '@/components/Typography';
 
 export const NavbarItem = ({ title, link, icon }: NavbarItemProps) => {
   const pathName = usePathname();
