@@ -1,15 +1,15 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { CustomizedLinearProgressWithLabel } from '.';
+import { LinearProgress } from '.';
 
 const meta = {
-  component: CustomizedLinearProgressWithLabel,
+  component: LinearProgress,
   tags: ['autodocs'],
   title: 'Linear progress'
-} satisfies Meta<typeof CustomizedLinearProgressWithLabel>;
+} satisfies Meta<typeof LinearProgress>;
 
 export default meta;
-type Story = StoryObj<typeof CustomizedLinearProgressWithLabel>;
+type Story = StoryObj<typeof LinearProgress>;
 
 export const Primary: Story = {
   args: {

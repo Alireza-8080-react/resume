@@ -2,7 +2,7 @@
 
 import { Grid } from '@mui/material';
 
-import { CustomizedLinearProgressWithLabel } from '@/components/CustomizedLinearProgressWithLabel';
+import { LinearProgress } from '@/components/LinearProgress';
 import { Scrollbar } from '@/components/Scrollbar';
 import { SocialMediaIcon } from '@/components/SocialMediaIcon';
 
@@ -40,17 +40,17 @@ const HomePage = () => {
         <Grid item lg={1} xs={0} />
         <Grid item lg={6} xs={12}>
           <Scrollbar className={classes.skills_scrollbar}>
-            <CustomizedLinearProgressWithLabel label='HTML5' value={70} />
-            <CustomizedLinearProgressWithLabel label='CSS3' value={60} />
-            <CustomizedLinearProgressWithLabel label='JS' value={30} />
-            <CustomizedLinearProgressWithLabel label='React' value={50} />
-            <CustomizedLinearProgressWithLabel label='NextJs' value={40} />
-            <CustomizedLinearProgressWithLabel label='Material UI' value={65} />
-            <CustomizedLinearProgressWithLabel label='SCSS' value={30} />
-            <CustomizedLinearProgressWithLabel label='Jest' value={20} />
-            <CustomizedLinearProgressWithLabel label='Typescript' value={65} />
-            <CustomizedLinearProgressWithLabel label='ReduxJs' value={90} />
-            <CustomizedLinearProgressWithLabel label='React hook form' value={70} />
+            <LinearProgress label='HTML5' value={70} />
+            <LinearProgress label='CSS3' value={60} />
+            <LinearProgress label='JS' value={30} />
+            <LinearProgress label='React' value={50} />
+            <LinearProgress label='NextJs' value={40} />
+            <LinearProgress label='Material UI' value={65} />
+            <LinearProgress label='SCSS' value={30} />
+            <LinearProgress label='Jest' value={20} />
+            <LinearProgress label='Typescript' value={65} />
+            <LinearProgress label='ReduxJs' value={90} />
+            <LinearProgress label='React hook form' value={70} />
           </Scrollbar>
         </Grid>
         <Grid item lg={1} xs={0} />

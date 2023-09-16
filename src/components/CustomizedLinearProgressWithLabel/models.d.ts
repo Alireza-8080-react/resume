@@ -1,4 +1,4 @@
-export interface CustomizedLinearProgressWithLabelProps {
+export interface LinearProgressWithLabelProps {
   label: string;
   value: number;
 }
