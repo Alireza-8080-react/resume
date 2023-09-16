@@ -23,4 +23,5 @@ export interface GridProps {
   className?: string;
   alignItems?: AlignItems;
   justifyContent?: JustifyContent;
+  role?: string;
 }

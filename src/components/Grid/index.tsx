@@ -1,5 +1,6 @@
-import { Grid as MuiGrid,GridProps } from '@mui/material';
-// import { GridProps } from './models';
+import { Grid as MuiGrid } from '@mui/material';
+
+import { GridProps } from './models';
 
 export const Grid = ({
   item,
@@ -13,7 +14,8 @@ export const Grid = ({
   children,
   className,
   alignItems,
-  justifyContent
+  justifyContent,
+  role
 }: GridProps) => {
   return (
     <MuiGrid
@@ -28,6 +30,7 @@ export const Grid = ({
       justifyContent={justifyContent}
       alignItems={alignItems}
       className={className}
+      role={role}
     >
       {children}
     </MuiGrid>
