@@ -5,8 +5,11 @@ import { render } from '@testing-library/react';
 import { Logo } from '@/components/Logo';
 
 describe('Logo', () => {
+  const logo = render(<Logo />);
   it('renders logo', () => {
-    const logo = render(<Logo />);
+    expect(logo).toBeInTheDocument();
+  });
+  it('logo matches snapshot', () => {
     expect(logo).toMatchSnapshot();
   });
 });
