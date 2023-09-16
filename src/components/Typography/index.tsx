@@ -1,5 +1,5 @@
-import { Typography as MuiTypography, TypographyProps } from '@mui/material';
-// import { TypographyProps } from './models';
+import { Typography as MuiTypography } from '@mui/material';
+import { TypographyProps } from './models';
 
 export const Typography = ({ children, variant, className, color, component }: TypographyProps) => {
   return (
