@@ -1,8 +1,9 @@
-import { Button, Typography } from '@mui/material';
+import { Typography } from '@mui/material';
 import Image from 'next/image';
 import Link from 'next/link';
 
 import classes from './not-found.module.scss';
+import { Button } from '@/components/Button';
 
 const NotFound = () => {
   return (
