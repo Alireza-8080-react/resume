@@ -19,10 +19,7 @@
   },
   "lint-staged": {
     "*.{ts,tsx}": [
-      "prettier --write"
-    ],
-    "apps/**/*.{ts,tsx}": [
-      "eslint --fix --plugin tsc --rule 'tsc/config: [2, {configFile: \"./tsconfig.json\"}]'"
+      "prettier --write && eslint . --fix && tsc"
     ]
   },
   "dependencies": {
