@@ -1,9 +1,10 @@
-import { Grid, Hidden, IconButton } from '@mui/material';
+import { Hidden, IconButton } from '@mui/material';
 
 import { Logo } from '../Logo';
 import { Navbar } from './_components/Navbar';
 import classes from './index.module.scss';
 import { Button } from '../Button';
+import { Grid } from '../Grid';
 
 export const Header = () => {
   const handleOpneGithubRepo = () => {

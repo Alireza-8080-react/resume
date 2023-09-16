@@ -1,10 +1,11 @@
-import { Grid, Hidden } from '@mui/material';
+import { Hidden } from '@mui/material';
 import { useState } from 'react';
 
 import { NavbarDrawer } from './_components/NavbarDrawer';
 import { NavbarItem } from './_components/NavbarItem';
 import classes from './index.module.scss';
 import { Button } from '@/components/Button';
+import { Grid } from '@/components/Grid';
 
 export const Navbar = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
