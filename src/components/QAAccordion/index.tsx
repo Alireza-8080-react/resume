@@ -1,8 +1,8 @@
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { Accordion, AccordionDetails, AccordionSummary } from '@mui/material';
 
-import { QAAccordionProps } from './models';
 import { Typography } from '../Typography';
+import { QAAccordionProps } from './models';
 
 export const QAAccordion = ({
   isExpanded,

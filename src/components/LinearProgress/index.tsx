@@ -1,8 +1,8 @@
 import { LinearProgress as MuiLinearProgress } from '@mui/material';
 
+import { Typography } from '../Typography';
 import classes from './index.module.scss';
 import { LinearProgressWithLabelProps } from './models';
-import { Typography } from '../Typography';
 
 export const LinearProgress = ({ label, value }: LinearProgressWithLabelProps) => {
   return (

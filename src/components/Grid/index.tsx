@@ -1,4 +1,4 @@
-import { GridProps, Grid as MuiGrid } from '@mui/material';
+import { Grid as MuiGrid,GridProps } from '@mui/material';
 // import { GridProps } from './models';
 
 export const Grid = ({

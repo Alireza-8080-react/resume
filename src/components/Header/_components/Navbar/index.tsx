@@ -1,11 +1,12 @@
 import { useState } from 'react';
 
-import { NavbarDrawer } from './_components/NavbarDrawer';
-import { NavbarItem } from './_components/NavbarItem';
-import classes from './index.module.scss';
 import { Button } from '@/components/Button';
 import { Grid } from '@/components/Grid';
 import { Hidden } from '@/components/Hidden';
+
+import { NavbarDrawer } from './_components/NavbarDrawer';
+import { NavbarItem } from './_components/NavbarItem';
+import classes from './index.module.scss';
 
 export const Navbar = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);

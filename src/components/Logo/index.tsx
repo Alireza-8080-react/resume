@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
-import classes from './index.module.scss';
 import { Typography } from '../Typography';
+import classes from './index.module.scss';
 
 export const Logo = () => {
   return (

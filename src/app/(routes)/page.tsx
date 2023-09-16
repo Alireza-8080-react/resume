@@ -1,12 +1,12 @@
 'use client';
 
+import { Grid } from '@/components/Grid';
 import { LinearProgress } from '@/components/LinearProgress';
 import { Scrollbar } from '@/components/Scrollbar';
 import { SocialMediaIcon } from '@/components/SocialMediaIcon';
+import { Typography } from '@/components/Typography';
 
 import classes from './page.module.scss';
-import { Typography } from '@/components/Typography';
-import { Grid } from '@/components/Grid';
 
 const HomePage = () => {
   return (

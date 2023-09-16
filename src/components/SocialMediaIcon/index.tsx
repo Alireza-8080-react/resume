@@ -1,8 +1,8 @@
 import Link from 'next/link';
 
-import { SocialMediaIconProps } from './models';
 import { IconButton } from '../IconButton';
 import { Tooltip } from '../Tooltip';
+import { SocialMediaIconProps } from './models';
 
 export const SocialMediaIcon = ({ title, href, iconClassName }: SocialMediaIconProps) => {
   return (

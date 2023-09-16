@@ -1,4 +1,5 @@
 import { Hidden as MuiHidden } from '@mui/material';
+
 import { HiddenProps } from './models';
 
 export const Hidden = ({
