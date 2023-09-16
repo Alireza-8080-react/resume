@@ -1,7 +1,8 @@
-import { IconButton, Tooltip } from '@mui/material';
+import { Tooltip } from '@mui/material';
 import Link from 'next/link';
 
 import { SocialMediaIconProps } from './models';
+import { IconButton } from '../IconButton';
 
 export const SocialMediaIcon = ({ title, href, iconClassName }: SocialMediaIconProps) => {
   return (
