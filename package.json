@@ -14,12 +14,13 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged && tsc"
     }
   },
   "lint-staged": {
     "*.{ts,tsx}": [
-      "prettier --write && eslint . --fix && tsc"
+      "prettier --write",
+      "eslint --fix ."
     ]
   },
   "dependencies": {
