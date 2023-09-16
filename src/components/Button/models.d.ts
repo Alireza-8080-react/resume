@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import { MouseEventHandler, ReactNode } from 'react';
 
 export type ButtonVariant = 'contained' | 'outlined' | 'text';
 export type ButtonColor =
