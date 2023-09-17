@@ -8,7 +8,7 @@ import classes from './index.module.scss';
 export const Awards = () => {
   return (
     <div className={classes.container}>
-      <Typography variant='h2'>Awards</Typography>
+      <Typography variant='h2'>Achievements</Typography>
       <Grid container justifyContent='space-around' className={classes.inside_container}>
         <Grid item xs={10} md={3}>
           <Award
