@@ -1,5 +1,7 @@
-import { Button, Grid, Hidden, IconButton } from '@mui/material';
-
+import { Button } from '../Button';
+import { Grid } from '../Grid';
+import { Hidden } from '../Hidden';
+import { IconButton } from '../IconButton';
 import { Logo } from '../Logo';
 import { Navbar } from './_components/Navbar';
 import classes from './index.module.scss';

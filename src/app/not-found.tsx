@@ -1,6 +1,8 @@
-import { Button, Typography } from '@mui/material';
 import Image from 'next/image';
 import Link from 'next/link';
+
+import { Button } from '@/components/Button';
+import { Typography } from '@/components/Typography';
 
 import classes from './not-found.module.scss';
 

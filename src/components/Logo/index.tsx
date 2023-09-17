@@ -1,6 +1,6 @@
-import { Typography } from '@mui/material';
 import Link from 'next/link';
 
+import { Typography } from '../Typography';
 import classes from './index.module.scss';
 
 export const Logo = () => {

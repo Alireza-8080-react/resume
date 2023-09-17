@@ -1,7 +1,7 @@
-import { Grid, Typography } from '@mui/material';
-
 import { COLOR_PALETTE_FOREGROUND_LIGHT } from '@/constants/colorPalette';
 
+import { Grid } from '../Grid';
+import { Typography } from '../Typography';
 import { Award } from './_components/Award';
 import classes from './index.module.scss';
 

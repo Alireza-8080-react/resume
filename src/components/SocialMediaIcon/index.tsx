@@ -1,6 +1,7 @@
-import { IconButton, Tooltip } from '@mui/material';
 import Link from 'next/link';
 
+import { IconButton } from '../IconButton';
+import { Tooltip } from '../Tooltip';
 import classes from './index.module.scss';
 import { SocialMediaIconProps } from './models';
 

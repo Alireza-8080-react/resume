@@ -1,4 +1,4 @@
-import { CircularProgress } from '@mui/material';
+import { CircularProgress } from '@/components/CircularProgress';
 
 import classes from './loading.module.scss';
 

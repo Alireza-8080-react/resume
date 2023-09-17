@@ -1,6 +1,8 @@
-import { Grid, Typography } from '@mui/material';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+
+import { Grid } from '@/components/Grid';
+import { Typography } from '@/components/Typography';
 
 import classes from './index.module.scss';
 import { NavbarItemProps } from './models';
