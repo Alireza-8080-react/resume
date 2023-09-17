@@ -2,6 +2,7 @@
 
 import { Grid, Typography } from '@mui/material';
 
+import { Awards } from '@/components/Awards';
 import { CustomizedLinearProgressWithLabel } from '@/components/CustomizedLinearProgressWithLabel';
 import { Scrollbar } from '@/components/Scrollbar';
 import { SocialMediaIcon } from '@/components/SocialMediaIcon';
@@ -41,18 +42,22 @@ const HomePage = () => {
           <Scrollbar className={classes.skills_scrollbar}>
             <CustomizedLinearProgressWithLabel label='HTML5' value={70} />
             <CustomizedLinearProgressWithLabel label='CSS3' value={60} />
-            <CustomizedLinearProgressWithLabel label='JS' value={30} />
-            <CustomizedLinearProgressWithLabel label='React' value={50} />
-            <CustomizedLinearProgressWithLabel label='NextJs' value={40} />
+            <CustomizedLinearProgressWithLabel label='JS' value={50} />
+            <CustomizedLinearProgressWithLabel label='React' value={60} />
+            <CustomizedLinearProgressWithLabel label='NextJs' value={50} />
             <CustomizedLinearProgressWithLabel label='Material UI' value={65} />
-            <CustomizedLinearProgressWithLabel label='SCSS' value={30} />
+            <CustomizedLinearProgressWithLabel label='SCSS' value={40} />
             <CustomizedLinearProgressWithLabel label='Jest' value={20} />
             <CustomizedLinearProgressWithLabel label='Typescript' value={65} />
             <CustomizedLinearProgressWithLabel label='ReduxJs' value={90} />
             <CustomizedLinearProgressWithLabel label='React hook form' value={70} />
+            <CustomizedLinearProgressWithLabel label='Storybook' value={40} />
           </Scrollbar>
         </Grid>
         <Grid item lg={1} xs={0} />
+        <Grid item xs={12}>
+          <Awards />
+        </Grid>
       </Grid>
     </main>
   );

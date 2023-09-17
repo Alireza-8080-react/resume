@@ -1,0 +1,12 @@
+@import 'src/styles/variables';
+
+.container {
+  height: 400px;
+
+  .inside_container {
+    background-color: rgb($color: $color-palette-secondary, $alpha: 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
