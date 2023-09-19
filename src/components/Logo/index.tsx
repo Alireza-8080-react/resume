@@ -5,7 +5,7 @@ import classes from './index.module.scss';
 
 export const Logo = () => {
   return (
-    <div className={classes.logo}>
+    <div className={classes.logo} role='img'>
       <Link href='/'>
         <Typography variant='h4' color='primary' component='span'>
           A
