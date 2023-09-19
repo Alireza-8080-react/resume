@@ -21,4 +21,5 @@ export interface TypographyProps {
   component?: ElementType;
   children: ReactNode;
   color?: string;
+  textAlign?: 'center' | 'left' | 'right';
 }

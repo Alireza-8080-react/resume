@@ -2,7 +2,7 @@
 
 body {
   padding: 1rem 2rem;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 a {
@@ -10,7 +10,7 @@ a {
 }
 
 main {
-  margin-top: 64px;
+  margin-top: 144px;
 }
 
 @media (prefers-color-scheme: dark) {

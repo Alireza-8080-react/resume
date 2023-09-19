@@ -1,5 +1,6 @@
 'use client';
 
+import { Awards } from '@/components/Awards';
 import { Grid } from '@/components/Grid';
 import { LinearProgress } from '@/components/LinearProgress';
 import { Scrollbar } from '@/components/Scrollbar';
@@ -41,18 +42,22 @@ const HomePage = () => {
           <Scrollbar className={classes.skills_scrollbar}>
             <LinearProgress label='HTML5' value={70} />
             <LinearProgress label='CSS3' value={60} />
-            <LinearProgress label='JS' value={30} />
-            <LinearProgress label='React' value={50} />
-            <LinearProgress label='NextJs' value={40} />
+            <LinearProgress label='JS' value={50} />
+            <LinearProgress label='React' value={60} />
+            <LinearProgress label='NextJs' value={50} />
             <LinearProgress label='Material UI' value={65} />
-            <LinearProgress label='SCSS' value={30} />
+            <LinearProgress label='SCSS' value={40} />
             <LinearProgress label='Jest' value={20} />
             <LinearProgress label='Typescript' value={65} />
             <LinearProgress label='ReduxJs' value={90} />
             <LinearProgress label='React hook form' value={70} />
+            <LinearProgress label='Storybook' value={40} />
           </Scrollbar>
         </Grid>
         <Grid item lg={1} xs={0} />
+        <Grid item xs={12}>
+          <Awards />
+        </Grid>
       </Grid>
     </main>
   );

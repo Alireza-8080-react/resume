@@ -34,9 +34,9 @@ export const applicationTheme = (prefersDarkMode: boolean) => {
     },
     typography: {
       allVariants: {
-        color: FOREGROUND
-      },
-      fontFamily: 'IRANSansXFaNum'
+        color: FOREGROUND,
+        fontFamily: 'Croissant One'
+      }
     }
   });
 };
