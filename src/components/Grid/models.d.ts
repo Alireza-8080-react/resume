@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import { AriaRole, ReactNode } from 'react';
 
 export type GridSize = 'auto' | number;
 export type AlignItems = 'flex-end' | 'flex-start' | 'center' | 'stretch' | 'baseline';
@@ -23,5 +23,5 @@ export interface GridProps {
   className?: string;
   alignItems?: AlignItems;
   justifyContent?: JustifyContent;
-  role?: string;
+  role?: AriaRole;
 }
