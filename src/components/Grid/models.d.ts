@@ -19,7 +19,7 @@ export interface GridProps {
   sm?: boolean | GridSize;
   xl?: boolean | GridSize;
   xs?: boolean | GridSize;
-  children: ReactNode;
+  children?: ReactNode;
   className?: string;
   alignItems?: AlignItems;
   justifyContent?: JustifyContent;
