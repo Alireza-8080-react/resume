@@ -1,26 +1,28 @@
 /* eslint-disable @next/next/no-page-custom-font */
-'use client';
 
 import '@/styles/overrides.scss';
 import '@/styles/general.scss';
 
-import { responsiveFontSizes, ThemeProvider, useMediaQuery } from '@mui/material';
-import { Inter } from 'next/font/google';
+import { Metadata } from 'next';
 import { ReactNode } from 'react';
 
-import { Header } from '@/components/Header';
-import { applicationTheme } from '@/theme';
+import { Layout } from '@/components/Head';
 
-const inter = Inter({ subsets: ['latin'] });
+export const metadata: Metadata = {
+  authors: [{ name: 'Alireza Shahmoradi' }],
+  creator: 'Alireza Shahmoradi',
+  description: `This is Alireza Shahmoradi's open-source resume website to check his skills & coding style in it's github repo`,
+  title: `Alireza Shahmoradi's resume`
+};
 
-export default function RootLayout({ children }: { children: ReactNode }) {
-  const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
-
+const RootLayout = ({ children }: { children: ReactNode }) => {
   return (
     <html lang='en'>
       <head>
+        {/* Boxicons.com icons */}
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
 
+        {/* Fonts */}
         <link rel='preconnect' href='https://fonts.googleapis.com' />
         <link rel='preconnect' href='https://fonts.gstatic.com' crossOrigin='anonymous' />
         <link
@@ -28,12 +30,11 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           rel='stylesheet'
         />
       </head>
-      <ThemeProvider theme={responsiveFontSizes(applicationTheme(prefersDarkMode))}>
-        <body className={inter.className}>
-          <Header />
-          {children}
-        </body>
-      </ThemeProvider>
+      <body>
+        <Layout>{children}</Layout>
+      </body>
     </html>
   );
-}
+};
+
+export default RootLayout;
