@@ -9,6 +9,7 @@ export type JustifyContent =
   | 'space-between'
   | 'space-around'
   | 'space-evenly';
+export type GridDirection = 'row' | 'column' | 'row-reverse' | 'column-reverse';
 
 export interface GridProps {
   item?: boolean;
@@ -24,4 +25,5 @@ export interface GridProps {
   alignItems?: AlignItems;
   justifyContent?: JustifyContent;
   role?: AriaRole;
+  direction?: GridDirection;
 }

@@ -15,7 +15,8 @@ export const Grid = ({
   className,
   alignItems,
   justifyContent,
-  role
+  role,
+  direction
 }: GridProps) => {
   return (
     <MuiGrid
@@ -31,6 +32,7 @@ export const Grid = ({
       alignItems={alignItems}
       className={className}
       role={role}
+      direction={direction}
     >
       {children}
     </MuiGrid>
