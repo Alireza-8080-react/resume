@@ -12,7 +12,7 @@ import classes from './page.module.scss';
 
 const HomePage = () => {
   return (
-    <main className='body'>
+    <main>
       <Grid container spacing={2}>
         <Grid item lg={4} xs={12} className={classes.general_info_container}>
           <Typography variant='h2'>Mid-level Front-end Developer</Typography>

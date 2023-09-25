@@ -17,7 +17,7 @@ const AboutPage = () => {
   };
 
   return (
-    <main className='body'>
+    <main>
       <QAAccordion
         isExpanded={expanded === 'panel1'}
         onChange={handleChange('panel1')}
