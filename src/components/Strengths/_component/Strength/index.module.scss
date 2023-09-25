@@ -1,0 +1,14 @@
+@import 'src/styles/variables.scss';
+
+.container {
+  background-color: rgba($color: $color-palette-main, $alpha: 0.5);
+  height: 400px;
+  padding: 16px;
+  opacity: 0.5;
+  &:hover {
+    opacity: 1;
+  }
+  .text {
+    margin-top: 32px;
+  }
+}
