@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": false,
@@ -27,7 +28,7 @@
     "**/*.tsx",
     "**/*.ts",
     ".next/types/**/*.ts",
-    "./src/**/*.stories.tsx",
+    "./src/**/*.stories.tsx"
   ],
   "exclude": ["node_modules"]
 }
