@@ -1,3 +1,5 @@
+import { urls } from '@/constants/urls';
+
 import { Button } from '../Button';
 import { Grid } from '../Grid';
 import { Hidden } from '../Hidden';
@@ -8,7 +10,7 @@ import classes from './index.module.scss';
 
 export const Header = () => {
   const handleOpenGithubRepo = () => {
-    window.open('https://github.com/Alireza-8080-react/resume', '_blank');
+    window.open(urls.githubRepo, '_blank');
   };
 
   return (

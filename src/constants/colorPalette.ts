@@ -1,6 +1,8 @@
-export const COLOR_PALETTE_MAIN = '#005260';
-export const COLOR_PALETTE_SECONDARY = '#e1b256';
-export const COLOR_PALETTE_FOREGROUND_DARK = '#cfab9f';
-export const COLOR_PALETTE_BACKGROUND_DARK = '#000';
-export const COLOR_PALETTE_BACKGROUND_LIGHT = '#f1f1f1';
-export const COLOR_PALETTE_FOREGROUND_LIGHT = '#242424';
+export const colorPalette = {
+  backgroundDark: '#000',
+  backgroundLight: '#f1f1f1',
+  foregroundDark: '#cfab9f',
+  foregroundLight: '#242424',
+  main: '#005260',
+  secondary: '#e1b256'
+};

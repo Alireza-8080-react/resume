@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { SyntheticEvent, useState } from 'react';
 
 import { QAAccordion } from '@/components/QAAccordion';
+import { urls } from '@/constants/urls';
 
 import classes from './index.module.scss';
 
@@ -43,7 +44,7 @@ const AboutPage = () => {
       >
         I started working on
         <span>
-          <Link href='https://azki.com' target='_blank'>
+          <Link href={urls.azki} target='_blank'>
             {' '}
             Azki{' '}
           </Link>

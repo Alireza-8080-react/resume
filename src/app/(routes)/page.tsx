@@ -6,6 +6,7 @@ import { LinearProgress } from '@/components/LinearProgress';
 import { Scrollbar } from '@/components/Scrollbar';
 import { SocialMediaIcon } from '@/components/SocialMediaIcon';
 import { Typography } from '@/components/Typography';
+import { urls } from '@/constants/urls';
 
 import classes from './page.module.scss';
 
@@ -21,7 +22,7 @@ const HomePage = () => {
           </Typography>
           <div className={classes.contact_me_button}>
             <SocialMediaIcon
-              href='https://www.linkedin.com/in/alireza-shahmoradi/'
+              href={urls.linkedIn}
               title='Alireza-Shahmoradi'
               iconClassName='bx bxl-linkedin'
             />
@@ -31,7 +32,7 @@ const HomePage = () => {
               iconClassName='bx bxs-phone'
             />
             <SocialMediaIcon
-              href='https://mail.google.com/mail/u/0/?ogbl#inbox?compose=CllgCJTJnslxZFCNZNxfqMZjXlsrDVkPvRWTxVqKSWlpzLbsMMwDqfXvHZVPMNNWsqHwTjLnjpL'
+              href={urls.gmail}
               title='@Alireza.Shahmoaradi.entrepreneur@gmail.com'
               iconClassName='bx bxl-gmail'
             />
