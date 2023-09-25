@@ -63,17 +63,9 @@ const AboutPage = () => {
         isExpanded={expanded === 'panel5'}
         onChange={handleChange('panel5')}
         className={`${classes.qa_accordion} ${classes.accordion5}`}
-        question='What are your achievements?'
+        question='Where have you studied?'
       >
-        <ul>
-          <li>I developed front-side of customized CRM, dynamic-form & ticketing panels solely.</li>
-          <li>Added location to website to get users address by using Mapbox gl.</li>
-          <li>
-            Refactored many areas of project: Convert class components into functional Add ts &
-            es-lint with custom strict rules Used React-hook-form for forms As insurance has many
-            if-elses (logics) I learnt how to handle many scenarios.
-          </li>
-        </ul>
+        I got my license in <Link href='https://khu.ac.ir/en'>Kharazmi</Link> university
       </QAAccordion>
       <QAAccordion
         isExpanded={expanded === 'panel6'}
