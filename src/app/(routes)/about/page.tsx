@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { SyntheticEvent, useState } from 'react';
 
 import { QAAccordion } from '@/components/QAAccordion';
+import { Strengths } from '@/components/Strengths';
 import { urls } from '@/constants/urls';
 
 import classes from './index.module.scss';
@@ -67,22 +68,7 @@ const AboutPage = () => {
       >
         I got my license in <Link href='https://khu.ac.ir/en'>Kharazmi</Link> university
       </QAAccordion>
-      <QAAccordion
-        isExpanded={expanded === 'panel6'}
-        onChange={handleChange('panel6')}
-        className={`${classes.qa_accordion} ${classes.accordion6}`}
-        question='What are your strengths?'
-      >
-        <ul>
-          <li>
-            I love business. So my job is not just to code. I like to know the reason behind doing
-            every single task & give other solutions if any comes to my mind.
-          </li>
-          <li>Super fast at doing tasks. Don't get me wrong here. I write clean code.</li>
-          <li>Love cleaning codes.</li>
-          <li>Love learning new things & growing up fast.</li>
-        </ul>
-      </QAAccordion>
+      <Strengths />
     </main>
   );
 };
