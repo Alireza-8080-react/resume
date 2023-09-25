@@ -3,8 +3,8 @@ import { createTheme } from '@mui/material';
 import { colorPalette } from './constants/colorPalette';
 
 export const applicationTheme = (prefersDarkMode: boolean) => {
-  const background = prefersDarkMode ? colorPalette.backgroundDark : colorPalette.backgroundLight;
-  const foreground = prefersDarkMode ? colorPalette.foregroundDark : colorPalette.foregroundLight;
+  const background = prefersDarkMode ? colorPalette.dark.background : colorPalette.light.background;
+  const foreground = prefersDarkMode ? colorPalette.dark.foreground : colorPalette.light.foreground;
   return createTheme({
     palette: {
       background: {
@@ -13,11 +13,11 @@ export const applicationTheme = (prefersDarkMode: boolean) => {
       },
       mode: prefersDarkMode ? 'dark' : 'light',
       primary: {
-        contrastText: colorPalette.foregroundDark,
+        contrastText: colorPalette.light.foreground,
         main: colorPalette.main
       },
       secondary: {
-        contrastText: colorPalette.foregroundDark,
+        contrastText: colorPalette.light.foreground,
         main: colorPalette.secondary
       }
     },

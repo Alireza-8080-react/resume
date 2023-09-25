@@ -1,4 +1,4 @@
-import { COLOR_PALETTE_FOREGROUND_LIGHT } from '@/constants/colorPalette';
+import { colorPalette } from '@/constants/colorPalette';
 
 import { Grid } from '../Grid';
 import { Typography } from '../Typography';
@@ -13,12 +13,12 @@ export const Awards = () => {
         <Grid item xs={10} md={3}>
           <Award
             frontComponent={
-              <Typography color={COLOR_PALETTE_FOREGROUND_LIGHT} variant='h1'>
+              <Typography color={colorPalette.light.foreground} variant='h1'>
                 #1
               </Typography>
             }
             backComponent={
-              <Typography color={COLOR_PALETTE_FOREGROUND_LIGHT} variant='h5' textAlign='center'>
+              <Typography color={colorPalette.light.foreground} variant='h5' textAlign='center'>
                 I developed front-side of customized CRM, dynamic-form & ticketing panels solely.
               </Typography>
             }
@@ -27,12 +27,12 @@ export const Awards = () => {
         <Grid item xs={10} md={3}>
           <Award
             frontComponent={
-              <Typography color={COLOR_PALETTE_FOREGROUND_LIGHT} variant='h1'>
+              <Typography color={colorPalette.light.foreground} variant='h1'>
                 #2
               </Typography>
             }
             backComponent={
-              <Typography color={COLOR_PALETTE_FOREGROUND_LIGHT} variant='h5' textAlign='center'>
+              <Typography color={colorPalette.light.foreground} variant='h5' textAlign='center'>
                 Added location to website to get users address by using Mapbox gl.
               </Typography>
             }
@@ -41,12 +41,12 @@ export const Awards = () => {
         <Grid item xs={10} md={3}>
           <Award
             frontComponent={
-              <Typography color={COLOR_PALETTE_FOREGROUND_LIGHT} variant='h1'>
+              <Typography color={colorPalette.light.foreground} variant='h1'>
                 #3
               </Typography>
             }
             backComponent={
-              <Typography color={COLOR_PALETTE_FOREGROUND_LIGHT} variant='h5' textAlign='center'>
+              <Typography color={colorPalette.light.foreground} variant='h5' textAlign='center'>
                 Refactored many areas of project: Convert class components into functional Add ts &
                 es-lint with custom strict rules Used React-hook-form for forms As insurance has
                 many if-elses (logics) I learnt how to handle many scenarios.
