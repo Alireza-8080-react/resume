@@ -2,7 +2,7 @@
 
 .container {
   background-color: rgba($color: $color-palette-main, $alpha: 0.5);
-  height: 450px;
+  min-height: 400px;
   padding: 16px;
   opacity: 0.5;
   &:hover {
