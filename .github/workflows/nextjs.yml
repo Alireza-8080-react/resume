@@ -37,7 +37,9 @@ jobs:
       - name: Install dependencies
         run: pnpm i --frozen-lockfile
       - name: build
-        run: pnpm run build && touch out/.nojekyll
+        run: |
+          pnpm run build
+          touch out/.nojekyll
       - name: Deploy
         # https://github.com/JamesIves/github-pages-deploy-action
         uses: JamesIves/github-pages-deploy-action@v4.4.3
