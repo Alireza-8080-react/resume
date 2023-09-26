@@ -35,4 +35,8 @@ jobs:
             ${{ runner.os }}-pnpm-store-
 
       - name: Install dependencies
-        run: pnpm i
+        uses: pnpm i
+      - name: build
+        uses: pnpm run build
+      - name: run
+        uses: pnpm start
