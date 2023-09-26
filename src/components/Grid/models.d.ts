@@ -26,4 +26,6 @@ export interface GridProps {
   justifyContent?: JustifyContent;
   role?: AriaRole;
   direction?: GridDirection;
+  flexBasis?: string | number;
+  flex?: string | number;
 }
