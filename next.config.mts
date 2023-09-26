@@ -40,11 +40,8 @@ const nextConfig: NextConfig = {
         source: '/(.*)'
       }
     ];
-  },
-  images: {
-    loader: 'imgix',
-    path: 'the "domain" of your Imigix source'
   }
+  output: 'export',
 };
 
 module.exports = nextConfig;
