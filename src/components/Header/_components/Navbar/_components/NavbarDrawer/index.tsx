@@ -1,4 +1,5 @@
 import { Drawer } from '@/components/Drawer';
+import { urls } from '@/constants/urls';
 
 import { NavbarItem } from '../NavbarItem';
 import classes from './index.module.scss';
@@ -14,7 +15,7 @@ export const NavbarDrawer = ({ isOpen, onClose }: NavbarDrawerProps) => {
         <NavbarItem title='About' link='/about' icon='bx bxs-info-circle' />
       </div>
       <div className={classes.item_container}>
-        <NavbarItem title='Download CV' link='/CV' icon='bx bxs-download' />
+        <NavbarItem title='Download CV' link={urls.cv} icon='bx bxs-download' target='_blank' />
       </div>
     </Drawer>
   );

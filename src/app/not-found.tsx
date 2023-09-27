@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import Link from 'next/link';
 
 import { Button } from '@/components/Button';
+import { Link } from '@/components/Link';
 import { Typography } from '@/components/Typography';
 
 import classes from './not-found.module.scss';

@@ -12,6 +12,10 @@ const handleOpenGithubRepo = () => {
   window.open(urls.githubRepo, '_blank');
 };
 
+const handleOpenCV = () => {
+  window.open(urls.cv, '_blank');
+};
+
 export const Header = () => {
   return (
     <Grid container justifyContent='space-between' alignItems='center' role='main'>
@@ -30,7 +34,7 @@ export const Header = () => {
               </IconButton>
             </Grid>
             <Grid item>
-              <Button color='secondary' variant='outlined'>
+              <Button color='secondary' variant='outlined' onClick={handleOpenCV}>
                 <span className={classes.download_icon_container}>
                   <i className='bx bxs-download secondaryColor' />
                 </span>

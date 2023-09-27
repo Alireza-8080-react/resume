@@ -1,5 +1,4 @@
-import Link from 'next/link';
-
+import { Link } from '../Link';
 import { Typography } from '../Typography';
 import classes from './index.module.scss';
 

@@ -1,3 +1,5 @@
+import { HTMLAttributeAnchorTarget } from 'react';
+
 export interface NavbarItemProps {
   /**
    * Title of the item
@@ -11,4 +13,8 @@ export interface NavbarItemProps {
    * The icon which is used before text. see icons at https://boxicons.com
    */
   icon?: string;
+  /**
+   * Should open the link in parent, self, top or new tab?
+   */
+  target?: HTMLAttributeAnchorTarget;
 }

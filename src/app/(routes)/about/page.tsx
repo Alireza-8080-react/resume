@@ -1,8 +1,8 @@
 'use client';
 
-import Link from 'next/link';
 import { SyntheticEvent, useState } from 'react';
 
+import { Link } from '@/components/Link';
 import { QAAccordion } from '@/components/QAAccordion';
 import { Strengths } from '@/components/Strengths';
 import { urls } from '@/constants/urls';
@@ -45,10 +45,7 @@ const AboutPage = () => {
       >
         I started working on
         <span>
-          <Link href={urls.azki} target='_blank'>
-            {' '}
-            Azki{' '}
-          </Link>
+          <Link href={urls.azki}> Azki </Link>
         </span>
         since 2021-Oct-02. I work there till now.
       </QAAccordion>

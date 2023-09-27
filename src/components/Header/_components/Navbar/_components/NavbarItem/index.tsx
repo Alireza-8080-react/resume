@@ -1,17 +1,17 @@
-import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 import { Grid } from '@/components/Grid';
+import { Link } from '@/components/Link';
 import { Typography } from '@/components/Typography';
 
 import classes from './index.module.scss';
 import { NavbarItemProps } from './models';
 
-export const NavbarItem = ({ title, link, icon }: NavbarItemProps) => {
+export const NavbarItem = ({ title, link, icon, target }: NavbarItemProps) => {
   const pathName = usePathname();
 
   return (
-    <Link href={link}>
+    <Link href={link} target={target}>
       <Grid container alignItems='center' spacing={1}>
         {icon && (
           <Grid item>
