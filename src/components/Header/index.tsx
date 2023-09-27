@@ -8,11 +8,11 @@ import { Logo } from '../Logo';
 import { Navbar } from './_components/Navbar';
 import classes from './index.module.scss';
 
-export const Header = () => {
-  const handleOpenGithubRepo = () => {
-    window.open(urls.githubRepo, '_blank');
-  };
+const handleOpenGithubRepo = () => {
+  window.open(urls.githubRepo, '_blank');
+};
 
+export const Header = () => {
   return (
     <Grid container justifyContent='space-between' alignItems='center' role='main'>
       <Grid item xl={4} lg={4} md={2} sm={6}>
