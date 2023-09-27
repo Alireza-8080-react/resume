@@ -9,8 +9,13 @@ export const Awards = () => {
   return (
     <div className={classes.container}>
       <Typography variant='h2'>Achievements</Typography>
-      <Grid container justifyContent='space-around' className={classes.inside_container}>
-        <Grid item xs={10} md={3}>
+      <Grid
+        container
+        justifyContent='space-around'
+        className={classes.inside_container}
+        spacing={2}
+      >
+        <Grid item xs={12} md={3}>
           <Award
             frontComponent={
               <Typography color={colorPalette.light.foreground} variant='h1'>
@@ -24,7 +29,7 @@ export const Awards = () => {
             }
           />
         </Grid>
-        <Grid item xs={10} md={3}>
+        <Grid item xs={12} md={3}>
           <Award
             frontComponent={
               <Typography color={colorPalette.light.foreground} variant='h1'>
@@ -38,7 +43,7 @@ export const Awards = () => {
             }
           />
         </Grid>
-        <Grid item xs={10} md={3}>
+        <Grid item xs={12} md={3}>
           <Award
             frontComponent={
               <Typography color={colorPalette.light.foreground} variant='h1'>

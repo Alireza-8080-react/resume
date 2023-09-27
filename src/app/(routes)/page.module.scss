@@ -26,3 +26,9 @@
   transform: translateX(200%);
   height: 60vh;
 }
+
+@media only screen and (max-width: 900px) {
+  .general_info_container {
+    margin-top: 0;
+  }
+}
