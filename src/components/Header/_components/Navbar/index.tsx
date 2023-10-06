@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { usePathname } from 'next/navigation';
+import { useEffect, useState } from 'react';
 
 import { Button } from '@/components/Button';
 import { Grid } from '@/components/Grid';
@@ -10,6 +11,11 @@ import classes from './index.module.scss';
 
 export const Navbar = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+  const pathname = usePathname();
+
+  useEffect(() => {
+    setIsDrawerOpen(false);
+  }, [pathname]);
 
   const handleOpenDrawer = () => {
     setIsDrawerOpen(true);
