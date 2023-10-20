@@ -53,6 +53,7 @@ const HomePage = () => {
             <LinearProgress label='ReduxJs' value={90} />
             <LinearProgress label='React hook form' value={70} />
             <LinearProgress label='Storybook' value={40} />
+            <LinearProgress label='NX' value={50} />
           </Scrollbar>
         </Grid>
         <Grid item lg={1} xs={0} />
