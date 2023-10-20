@@ -15,7 +15,7 @@ export const NavbarDrawer = ({ isOpen, onClose }: NavbarDrawerProps) => {
         <NavbarItem title='About' link='/about' icon='bx bxs-info-circle' />
       </div>
       <div className={classes.item_container}>
-        <NavbarItem title='Download CV' link={urls.cv} icon='bx bxs-download' target='_blank' />
+        <NavbarItem title='Check out my CV' link={urls.cv} icon='bx bxs-download' target='_blank' />
       </div>
     </Drawer>
   );

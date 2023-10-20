@@ -38,7 +38,7 @@ export const Header = () => {
                 <span className={classes.download_icon_container}>
                   <i className='bx bxs-download secondaryColor' />
                 </span>
-                <span>Download CV</span>
+                <span>Check out my CV!</span>
               </Button>
             </Grid>
           </Grid>
