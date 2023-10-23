@@ -1,4 +1,4 @@
-@import 'src/styles/variables.scss';
+@import 'src/styles/variables.module.scss';
 
 .container {
   background-color: rgba($color: $color-palette-main, $alpha: 0.5);
