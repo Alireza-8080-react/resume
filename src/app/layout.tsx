@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-page-custom-font */
 
 import '@/styles/overrides.scss';
-import '@/styles/general.scss';
 
 import { Metadata } from 'next';
 import { ReactNode } from 'react';
