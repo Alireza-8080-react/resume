@@ -1,4 +1,4 @@
-import { ReactNode, SyntheticEvent } from 'react';
+import { CSSProperties, ReactNode, SyntheticEvent } from 'react';
 
 export interface QAAccordionProps {
   isExpanded: boolean;
@@ -12,4 +12,5 @@ export interface QAAccordionProps {
   */
   children: ReactNode;
   className?: string;
+  style?: CSSProperties;
 }

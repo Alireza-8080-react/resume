@@ -9,10 +9,11 @@ export const QAAccordion = ({
   onChange,
   question,
   children,
-  className
+  className,
+  style
 }: QAAccordionProps) => {
   return (
-    <Accordion expanded={isExpanded} onChange={onChange} className={className}>
+    <Accordion expanded={isExpanded} onChange={onChange} style={style} className={className}>
       <AccordionSummary
         expandIcon={<ExpandMoreIcon />}
         aria-controls='panel1a-content'
