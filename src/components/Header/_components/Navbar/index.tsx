@@ -1,3 +1,4 @@
+import { ArrowUpward } from '@mui/icons-material';
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 
@@ -39,9 +40,7 @@ export const Navbar = () => {
       </Hidden>
       <Hidden mdUp>
         <Button variant='outlined' onClick={handleOpenDrawer}>
-          <i
-            className={`${isDrawerOpen ? classes.opened_icon : ''} bx bxs-up-arrow ${classes.icon}`}
-          />
+          <ArrowUpward className={`${isDrawerOpen ? classes.opened_icon : ''} ${classes.icon}`} />
         </Button>
         <NavbarDrawer isOpen={isDrawerOpen} onClose={handleCloseDrawer} />
       </Hidden>

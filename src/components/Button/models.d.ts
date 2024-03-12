@@ -16,4 +16,5 @@ export interface ButtonProps {
   variant?: ButtonVariant;
   color?: ButtonColor;
   onClick?: MouseEventHandler<HTMLButtonElement>;
+  startIcon?: ReactNode;
 }

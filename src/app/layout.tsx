@@ -19,9 +19,6 @@ const RootLayout = ({ children }: { children: ReactNode }) => {
   return (
     <html lang='en'>
       <head>
-        {/* Boxicons.com icons */}
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
-
         {/* Fonts */}
         <link rel='preconnect' href='https://fonts.googleapis.com' />
         <link rel='preconnect' href='https://fonts.gstatic.com' crossOrigin='anonymous' />

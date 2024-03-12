@@ -1,3 +1,5 @@
+import { Download, Home, Info } from '@mui/icons-material';
+
 import { Drawer } from '@/components/Drawer';
 import { urls } from '@/constants/urls';
 
@@ -9,13 +11,19 @@ export const NavbarDrawer = ({ isOpen, onClose }: NavbarDrawerProps) => {
   return (
     <Drawer isOpen={isOpen} onClose={onClose}>
       <div className={classes.item_container}>
-        <NavbarItem title='Home' link='/' icon='bx bxs-home' />
+        <NavbarItem title='Home' link='/'>
+          <Home />
+        </NavbarItem>
       </div>
       <div className={classes.item_container}>
-        <NavbarItem title='About' link='/about' icon='bx bxs-info-circle' />
+        <NavbarItem title='About' link='/about'>
+          <Info />
+        </NavbarItem>
       </div>
       <div className={classes.item_container}>
-        <NavbarItem title='Check out my CV' link={urls.cv} icon='bx bxs-download' target='_blank' />
+        <NavbarItem title='Check out my CV' link={urls.cv} target='_blank'>
+          <Download />
+        </NavbarItem>
       </div>
     </Drawer>
   );

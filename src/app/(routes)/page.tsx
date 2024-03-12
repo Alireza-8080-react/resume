@@ -1,5 +1,7 @@
 'use client';
 
+import { LinkedIn, Mail, Phone } from '@mui/icons-material';
+
 import { Awards } from '@/components/Awards';
 import { Grid } from '@/components/Grid';
 import { LinearProgress } from '@/components/LinearProgress';
@@ -21,21 +23,15 @@ const HomePage = () => {
             possible.
           </Typography>
           <div className={classes.contact_me_button}>
-            <SocialMediaIcon
-              href={urls.linkedIn}
-              title='Alireza-Shahmoradi'
-              iconClassName='bx bxl-linkedin'
-            />
-            <SocialMediaIcon
-              href='tel:+989037578234'
-              title='+98 903 7578 234'
-              iconClassName='bx bxs-phone'
-            />
-            <SocialMediaIcon
-              href={urls.gmail}
-              title='@Alireza.Shahmoaradi.entrepreneur@gmail.com'
-              iconClassName='bx bxl-gmail'
-            />
+            <SocialMediaIcon href={urls.linkedIn} title='Alireza-Shahmoradi'>
+              <LinkedIn />
+            </SocialMediaIcon>
+            <SocialMediaIcon href='tel:+989037578234' title='+98 903 7578 234'>
+              <Phone />
+            </SocialMediaIcon>
+            <SocialMediaIcon href={urls.gmail} title='@Alireza.Shahmoaradi.entrepreneur@gmail.com'>
+              <Mail />
+            </SocialMediaIcon>
           </div>
         </Grid>
         <Grid item lg={1} xs={0} />

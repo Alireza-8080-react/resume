@@ -1,3 +1,5 @@
+import { ReactNode } from 'react';
+
 export interface SocialMediaIconProps {
   /**
    * tooltip title
@@ -8,7 +10,7 @@ export interface SocialMediaIconProps {
    */
   href: string;
   /**
-   * a className which is passed to <i/> component
+   * icon goes here
    */
-  iconClassName: string;
+  children: ReactNode;
 }

@@ -1,4 +1,4 @@
-import { HTMLAttributeAnchorTarget } from 'react';
+import { HTMLAttributeAnchorTarget, ReactNode } from 'react';
 
 export interface NavbarItemProps {
   /**
@@ -10,9 +10,9 @@ export interface NavbarItemProps {
    */
   link: string;
   /**
-   * The icon which is used before text. see icons at https://boxicons.com
+   * The icon which is used before text.
    */
-  icon?: string;
+  children?: ReactNode;
   /**
    * Should open the link in parent, self, top or new tab?
    */

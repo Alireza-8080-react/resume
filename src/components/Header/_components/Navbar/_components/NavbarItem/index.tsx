@@ -7,15 +7,17 @@ import { Typography } from '@/components/Typography';
 import classes from './index.module.scss';
 import { NavbarItemProps } from './models';
 
-export const NavbarItem = ({ title, link, icon, target }: NavbarItemProps) => {
+export const NavbarItem = ({ title, link, children, target }: NavbarItemProps) => {
   const pathName = usePathname();
 
   return (
     <Link href={link} target={target}>
       <Grid container alignItems='center' spacing={1}>
-        {icon && (
+        {children && (
           <Grid item>
-            <i className={`${icon} ${classes.icon} ${pathName === link ? classes.active : ''}`} />
+            <div className={`${classes.icon} ${pathName === link ? classes.active : ''}`}>
+              {children}
+            </div>
           </Grid>
         )}
         <Grid item>
