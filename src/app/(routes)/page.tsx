@@ -1,6 +1,7 @@
 'use client';
 
 import { LinkedIn, Mail, Phone } from '@mui/icons-material';
+import Image from 'next/image';
 
 import { Awards } from '@/components/Awards';
 import { Grid } from '@/components/Grid';
@@ -17,6 +18,13 @@ const HomePage = () => {
     <main>
       <Grid container spacing={2}>
         <Grid item lg={4} xs={12} className={classes.general_info_container}>
+          <Image
+            src='/images/me.jpg'
+            alt='me'
+            width={250}
+            height={250}
+            className={classes.my_image}
+          />
           <Typography variant='h2'>Mid-level Front-end Developer</Typography>
           <Typography className={classes.caption}>
             With 2 years of experience of React & Next JS development. Learning at highest speed

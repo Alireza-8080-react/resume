@@ -2,7 +2,6 @@
 @import 'src/styles/animations';
 
 .general_info_container {
-  margin-top: 128px;
   animation: leftToRight 2s ease-in-out;
 }
 
@@ -27,8 +26,7 @@
   height: 60vh;
 }
 
-@media only screen and (max-width: 900px) {
-  .general_info_container {
-    margin-top: 0;
-  }
+.my_image {
+  border-radius: 50%;
+  margin-bottom: 20px;
 }
