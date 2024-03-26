@@ -4,6 +4,7 @@
   height: 450px;
 
   .inside_container {
+    border-radius: 50px;
     background-color: rgb($color: $color-palette-secondary, $alpha: 1);
     display: flex;
     justify-content: center;
