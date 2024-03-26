@@ -25,6 +25,11 @@ export const applicationTheme = (prefersDarkMode: boolean) => {
       allVariants: {
         color: foreground,
         fontFamily: 'Croissant One'
+      },
+      body1: {
+        fontFamily: 'serif',
+        fontSize: '1.5rem',
+        lineHeight: 2
       }
     }
   });
