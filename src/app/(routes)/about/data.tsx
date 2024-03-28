@@ -4,14 +4,14 @@ import { urls } from '@/constants/urls';
 
 export const qaItems = [
   {
-    answer: `I'm Alireza Shahmoradi. Born in 2001-Sep-21. I loved playing video games from childhood so I
-              loved computer since then. I loved to be able to write programs instead of just using them.`,
+    answer: `Alireza Shahmoradi | Passionate Programmer
+
+Adept in applying strong problem-solving skills to develop innovative software solutions. Possesses a natural affinity for technology, fostered by a lifelong interest in video games and their underlying programming.`,
     question: 'A short bio'
   },
   {
-    answer: `        I started it by chance! I saw an HTML & CSS video on YouTube & just got curious about it. I
-          watched it till the end & followed the road map & learnt js & React & Next js & all the good
-          stuff`,
+    answer: `I saw an HTML & CSS video on YouTube & just got curious about it. I
+          watched it till the end & followed the road map & learnt js & React & Next js.`,
     question: 'How did I start front-end?'
   },
   {
@@ -21,12 +21,12 @@ export const qaItems = [
         <span>
           <Link href={urls.azki}> Azki </Link>
         </span>
-        since 2021-Oct-02. I work there till now.
+        since 2021-Oct-02. I'm currently working there.
       </div>
     ),
-    question: 'Tell us about your work experience'
+    question: 'What is my work experience?'
   },
-  { answer: `I worked on back-office panel.`, question: 'What was your role in Azki?' },
+  { answer: `I work on back-office panel.`, question: 'What is your role in Azki?' },
   {
     answer: (
       <div>

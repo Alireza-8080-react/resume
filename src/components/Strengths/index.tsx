@@ -10,32 +10,40 @@ export const Strengths = () => {
       <Grid
         container
         justifyContent='space-around'
+        alignItems='stretch'
         className={classes.inside_container}
         spacing={4}
       >
         <Grid item xs={12} md={3}>
           <Strength>
-            <Typography textAlign='center'>
-              I love business. So my job is not just to code. I like to know the reason behind doing
-              every single task & give other solutions if any comes to my mind.
+            <Typography>
+              Proactive in understanding project goals and the bigger business picture. Seeks
+              opportunities to optimize workflows and suggest alternative solutions for improved
+              efficiency.
             </Typography>
           </Strength>
         </Grid>
         <Grid item xs={12} md={3}>
           <Strength>
-            <Typography textAlign='center'>
-              Super fast at doing tasks. Don't get me wrong here. I write clean code.
+            <Typography>
+              Deliver tasks swiftly while maintaining code quality and maintainability.
             </Typography>
           </Strength>
         </Grid>
         <Grid item xs={12} md={3}>
           <Strength>
-            <Typography textAlign='center'>Love cleaning codes.</Typography>
+            <Typography>
+              Prioritizes writing clean, maintainable, and well-documented code for efficient
+              collaboration and future development.
+            </Typography>
           </Strength>
         </Grid>
         <Grid item xs={12} md={3}>
           <Strength>
-            <Typography textAlign='center'>Love learning new things & growing up fast.</Typography>
+            <Typography>
+              Eager to acquire new skills and adapt to evolving technologies, continuously seeking
+              opportunities for professional growth.
+            </Typography>
           </Strength>
         </Grid>
       </Grid>

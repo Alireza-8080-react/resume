@@ -1,7 +1,6 @@
-import { Download, Home, Info } from '@mui/icons-material';
+import { Home, Info } from '@mui/icons-material';
 
 import { Drawer } from '@/components/Drawer';
-import { urls } from '@/constants/urls';
 
 import { NavbarItem } from '../NavbarItem';
 import classes from './index.module.scss';
@@ -18,11 +17,6 @@ export const NavbarDrawer = ({ isOpen, onClose }: NavbarDrawerProps) => {
       <div className={classes.item_container}>
         <NavbarItem title='About' link='/about'>
           <Info />
-        </NavbarItem>
-      </div>
-      <div className={classes.item_container}>
-        <NavbarItem title='Check out my CV' link={urls.cv} target='_blank'>
-          <Download />
         </NavbarItem>
       </div>
     </Drawer>

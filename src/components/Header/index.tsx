@@ -1,8 +1,7 @@
-import { Download, GitHub } from '@mui/icons-material';
+import { GitHub } from '@mui/icons-material';
 
 import { urls } from '@/constants/urls';
 
-import { Button } from '../Button';
 import { Grid } from '../Grid';
 import { Hidden } from '../Hidden';
 import { IconButton } from '../IconButton';
@@ -11,10 +10,6 @@ import { Navbar } from './_components/Navbar';
 
 const handleOpenGithubRepo = () => {
   window.open(urls.githubRepo, '_blank');
-};
-
-const handleOpenCV = () => {
-  window.open(urls.cv, '_blank');
 };
 
 export const Header = () => {
@@ -33,16 +28,6 @@ export const Header = () => {
               <IconButton onClick={handleOpenGithubRepo}>
                 <GitHub />
               </IconButton>
-            </Grid>
-            <Grid item>
-              <Button
-                color='secondary'
-                startIcon={<Download />}
-                variant='outlined'
-                onClick={handleOpenCV}
-              >
-                Check out my CV!
-              </Button>
             </Grid>
           </Grid>
         </Grid>
