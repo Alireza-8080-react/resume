@@ -8,9 +8,11 @@ export const SocialMediaIcon = ({ title, href, children }: SocialMediaIconProps)
   return (
     <Link href={href}>
       <Tooltip title={title}>
-        <IconButton size='large' className={classes.icon}>
-          {children}
-        </IconButton>
+        <div className={classes.wrapper}>
+          <IconButton size='large' className={classes.icon}>
+            {children}
+          </IconButton>
+        </div>
       </Tooltip>
     </Link>
   );
