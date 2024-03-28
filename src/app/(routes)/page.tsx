@@ -25,10 +25,9 @@ const HomePage = () => {
             height={250}
             className={classes.my_image}
           />
-          <Typography variant='h2'>Mid-level Front-end Developer</Typography>
+          <Typography variant='h2'>Alireza Shahmoradi</Typography>
           <Typography className={classes.caption}>
-            With 2 years of experience of React & Next JS development. Learning at highest speed
-            possible.
+            React/Next.js Dev (2+ yrs) | Eager Learner
           </Typography>
           <div className={classes.contact_me_button}>
             <SocialMediaIcon href={urls.linkedIn} title='Alireza-Shahmoradi'>
