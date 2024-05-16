@@ -16,7 +16,7 @@ const AboutPage = () => {
   };
 
   return (
-    <main>
+    <>
       {qaItems.map((qaItem, index) => (
         <QAAccordion
           isExpanded={expanded === `panel${index}`}
@@ -30,7 +30,7 @@ const AboutPage = () => {
         </QAAccordion>
       ))}
       <Strengths />
-    </main>
+    </>
   );
 };
 
