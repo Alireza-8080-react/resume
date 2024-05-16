@@ -14,7 +14,7 @@ const NotFound = () => {
         <Typography variant='h4'>The page you are looking for is not found!</Typography>
         <Link href='/'>
           <Button className={classes.home_page_button} variant='contained'>
-            Home page
+            <Typography variant='button'>Home page</Typography>
           </Button>
         </Link>
       </div>
