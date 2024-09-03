@@ -8,6 +8,7 @@ import { Scrollbar } from '@/components/Scrollbar';
 import { SocialMediaIcon } from '@/components/SocialMediaIcon';
 import { Typography } from '@/components/Typography';
 import { urls } from '@/constants/urls';
+import { getYearsWorkedOnAzki } from '@/utils/getYearsWorkedOnAzki';
 
 import classes from './page.module.scss';
 
@@ -24,7 +25,7 @@ const HomePage = () => {
         />
         <Typography variant='h2'>Alireza Shahmoradi</Typography>
         <Typography className={classes.caption}>
-          React/Next.js Dev (2+ yrs) | Eager Learner
+          React/Next.js Dev ({getYearsWorkedOnAzki()}+ yrs) | Eager Learner
         </Typography>
         <div className={classes.contact_me_button}>
           <SocialMediaIcon href={urls.linkedIn} title='Alireza-Shahmoradi'>
