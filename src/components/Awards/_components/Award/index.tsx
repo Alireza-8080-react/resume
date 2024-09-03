@@ -1,3 +1,5 @@
+'use client';
+
 // @ts-expect-error: no type declaration is available for this package
 import Flippy, { BackSide, FrontSide } from 'react-flippy';
 

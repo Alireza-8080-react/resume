@@ -1,5 +1,3 @@
-'use client';
-
 import { LinkedIn, Mail, Phone } from '@mui/icons-material';
 import Image from 'next/image';
 
