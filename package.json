@@ -2,6 +2,17 @@
   "name": "resume",
   "version": "2.0.0",
   "private": false,
+  "license": "ISC",
+  "author": {
+    "name": "Alireza Shahmoradi",
+    "email": "alireza.shahmoradi.programmer@gmail.com",
+    "url": "https://resume-steel-nu.vercel.app"
+  },
+  "homepage": "https://resume-steel-nu.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alireza-8080-react/resume"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
