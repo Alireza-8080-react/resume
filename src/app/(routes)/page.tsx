@@ -10,7 +10,7 @@ import { Typography } from '@/components/Typography';
 import { urls } from '@/constants/urls';
 import { getYearsWorkedOnAzki } from '@/utils/getYearsWorkedOnAzki';
 
-import classes from './page.module.scss';
+import classes from './index.module.scss';
 
 const HomePage = () => {
   return (
