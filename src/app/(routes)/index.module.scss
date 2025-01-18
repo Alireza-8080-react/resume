@@ -2,7 +2,7 @@
 @import 'src/styles/animations';
 
 .general_info_container {
-  animation: leftToRight 2s ease-in-out;
+  animation: leftToRight 1s ease-in-out;
 }
 
 .caption {
@@ -20,9 +20,8 @@
 }
 
 .skills_scrollbar {
-  animation: rightToLeft 4s ease-in-out;
+  animation: leftToRight 1.5s ease-in-out;
   animation-fill-mode: forwards;
-  transform: translateX(200%);
   height: 60vh;
 }
 
