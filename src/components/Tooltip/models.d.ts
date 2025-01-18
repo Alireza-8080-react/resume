@@ -1,6 +1,6 @@
 import { ReactElement } from 'react';
 
 export interface TooltipProps {
-  children: ReactElement;
+  children: ReactElement<any>;
   title: string;
 }
