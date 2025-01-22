@@ -1,9 +1,4 @@
 @import 'src/styles/variables.module.scss';
-@import 'src/styles/animations';
-
-.general_info_container {
-  animation: leftToRight 1s ease-in-out;
-}
 
 .caption {
   margin-top: 32px;
@@ -15,13 +10,9 @@
   width: fit-content;
   padding: 8px;
   border-radius: 10px;
-  animation: float 2s ease-in-out;
-  animation-iteration-count: infinite;
 }
 
 .skills_scrollbar {
-  animation: leftToRight 1.5s ease-in-out;
-  animation-fill-mode: forwards;
   height: 60vh;
 }
 
