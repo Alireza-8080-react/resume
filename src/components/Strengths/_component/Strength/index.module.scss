@@ -2,14 +2,14 @@
 
 .container {
   background-color: rgba($color: $color-palette-main, $alpha: 0.5);
-  min-height: 400px;
-  padding: 16px;
+  min-height: 50rem;
+  padding: 2rem;
   opacity: 0.5;
   height: 100%;
   &:hover {
     opacity: 1;
   }
   .text {
-    margin-top: 32px;
+    margin-top: 4rem;
   }
 }

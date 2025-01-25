@@ -1,10 +1,10 @@
 @import 'src/styles/variables.module.scss';
 
 .container {
-  height: 450px;
+  height: 56rem;
 
   .inside_container {
-    border-radius: 50px;
+    border-radius: 6rem;
     background-color: rgb($color: $color-palette-secondary, $alpha: 1);
     display: flex;
     justify-content: center;
